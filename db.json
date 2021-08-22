@@ -1,0 +1,10 @@
+{
+    "info": [
+        {
+            "id": 1,
+            "name": "Mathew Newton",
+            "profilePic": "./images/profilePic.jpg",
+            "resume": "./images/mathewNewtonResume"
+        }
+    ]
+}
