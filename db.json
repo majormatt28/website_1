@@ -6,5 +6,48 @@
             "profilePic": "./images/profilePic.jpg",
             "resume": "./images/mathewNewtonResume"
         }
-    ]
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "projectName": "Funflix",
+            "frontEndRepo": "https://github.com/majormatt28/Funflix-frontend",
+            "backEndRepo": "https://github.com/majormatt28/Funflix-backend",
+            "description": "Utilizing a third party API called TMDB to fetch the latest information on movies, this website let's you rate and comment on movies recently watched. As well as using JWT for a real authentication system to help keep that extra layer of protection. You may also see other comments on the same movie and converse with other movie goers for said movie."
+        },
+        {
+            "id": 2,
+            "projectName": "Mystadium",
+            "frontEndRepo": "https://github.com/majormatt28/MyStadium-frontend",
+            "backEndRepo": "https://github.com/majormatt28/MyStadium-backend",
+            "description": "By having the experience of going to NBA stadiums growing up, I wanted more people to share there experiences as well and if they would recommend the NBA stadium as a god place to visit. MyStadium utilizes vanilla javascript and custom CSS styling."
+        },
+        {
+            "id": 3,
+            "projectName": "Ink Gaming",
+            "frontEndRepo": "https://github.com/majormatt28/Ink-Gaming-frontend",
+            "backEndRepo": "https://github.com/majormatt28/Ink-Gaming-backend",
+            "description": "Building off of all that I have learned, I designed a website where we may upload videos, images and discuss our thoughts on all things gaming. I incorporated an authentication system called JWT which have users passwords private and turned into a token once logging in/ siging up."
+        }
+    ],
+   "blogs": [
+       {
+           "id": 1,
+           "blogTitle": "So you failed your first code challenge...",
+           "blogLink": "https://mathew-enewton.medium.com/so-you-failed-your-first-code-challenge-84cb23007f8b",
+           "description": "I discussed how it felt to fail a code challenge at my coding bootcamp. I go over what was the material that we did, how I broke it down to make it easier to understand and more so wanted to share that failing a code challenge isn't the end but a means to get better for the next go around."
+       },
+       {
+           "id": 2,
+           "blogTitle": "The curious case of form_for",
+           "blogLink": "https://mathew-enewton.medium.com/the-curious-case-of-form-for-64d4ebd46ba1",
+           "description": "While studying Ruby on Rails, I struggled with understanding form_for for awhile. I grasped what it is used for, however the syntax was always confusing for me. Here in my post I explained what I found researching about it, as well as tips for not getting confused again and extra resources."
+       },
+       {
+           "id": 3,
+           "blogTitle": "The end of one coding journey leads to the beginning of another...",
+           "blogLink": "https://mathew-enewton.medium.com/the-end-of-one-coding-journey-leads-to-the-beginning-of-another-abe67a89fcf6",
+           "description": "My time at Flatiron was fast approaching. I devoted 15 weeks learning and practicing code. I'm grateful for all the trials and tribulations I went through in order to become a better coder. Reflectiing on my time at Flatiron made me glad to have taken this journey. I look forward to what it has in stores as well."
+       }
+   ]
 }
